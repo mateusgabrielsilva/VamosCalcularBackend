@@ -11,7 +11,7 @@ const PORT = 3000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Servidor funcionando!");
+  res.send("Vamos Calcular Backend");
 });
 
 // Rotas
